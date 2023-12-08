@@ -33,7 +33,7 @@ spec:
         tier: api
     spec:
       containers:
-      - image: minseok1001/nodejs:1
+      - image: minseok1001/nodejs:10
         imagePullPolicy: Always
         name: api-app
         env:
