@@ -34,7 +34,7 @@ spec:
         tier: web
     spec:
       containers:
-      - image: minseok1001/react
+      - image: minseok1001/react:1
         imagePullPolicy: Always
         name: web-app
         ports:

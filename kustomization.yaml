@@ -1,7 +1,7 @@
 secretGenerator:
 - name: mysql-pass
   literals:
-  - password=12345
+  - password=1234
 resources:
   - mysql-deployment.yaml
   - api-deployment.yaml
